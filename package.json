@@ -1,0 +1,27 @@
+{
+  "name": "projectsemster2",
+  "version": "1.0.0",
+  "description": "<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinvanmeeuwe/projectsemster2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinvanmeeuwe/projectsemster2/issues"
+  },
+  "homepage": "https://github.com/robinvanmeeuwe/projectsemster2#readme",
+  "devDependencies": {
+    "aos": "^2.3.4",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
