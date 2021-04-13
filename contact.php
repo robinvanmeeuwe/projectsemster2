@@ -11,9 +11,6 @@
     <title>George</title>
 </head>
 <body>
-    
-
-
 
 <header id="navbar">
         <nav class="navbar-container container">
@@ -36,6 +33,55 @@
     </header>
 
 
+
+<form name="contactform" method="post" action="send_form_email.php">
+
+<div class="wrapper">
+<div class="content">
+</div>
+
+<div class="form">
+
+
+<div class="inner-form">
+<h1>LET'S TALK</h1>
+<p>Phone: 020 226 31 22</p>
+<p>Email: hello@georgemarina.nl</p>
+</div>
+
+<div class="top-form">
+
+  <div class="inner-form">
+  <div class="label" for="first_name">Name*</div>    
+  <input  type="text" placeholder="Your Name" name="first_name" maxlength="50" size="30" required>
+  </div>
+
+</div>
+
+
+<div class="middle-form">
+
+<div class="inner-form">
+  <div class="label" for="email">E-mail address</div>    
+  <input  type="email" placeholder="Your E-mail addres" name="telephone" maxlength="10" size="30" required>
+  </div>
+
+</div>
+
+<div class="bottom-form">
+
+  <div class="inner-form">
+  <div class="label" for="message">Message*</div>    
+  <textarea  placeholder="How can we help you today?" name="comments" maxlength="1000" cols="25" rows="6" required></textarea>
+  </div>
+
+</div>
+
+<input class="btn" type="submit" value="Send message">
+
+</div>
+</div>
+</form>
 
 <script src="./js/main.js"></script>
 
