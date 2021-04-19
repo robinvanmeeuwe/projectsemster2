@@ -10,9 +10,9 @@
           </button>
           <div class="navbar-menu">
             <ul class="navbar-links">
-              <li class="navbar-item"><a class="navbar-link" href="index.php?content=menu.php">Menu</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="index.php?content=reserveren.php">Reserveren</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="index.php?content=contact.php">Contact</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="index.php?content=/content/menu">Menu</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="index.php?content=/content/reserveren">Reserveren</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="index.php?content=/content/contact">Contact</a></li>
             </ul>
           </div>
         </nav>

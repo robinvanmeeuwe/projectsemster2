@@ -21,7 +21,6 @@
 <!-- De Navbar -->
 <?php include("./basics/navbar.php"); ?>  
 
-
 <div class="row" id="content">
             <div class="col-12">
                 <?php
@@ -34,7 +33,10 @@
                
             </div>
         </div>
-        
+
+
+
+
 <script src="./js/main.js"></script>
 
 
