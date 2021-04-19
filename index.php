@@ -8,33 +8,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>George</title>
+    <title>George Hollywood | Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+
 </head>
 <body>
-    
+
+<!-- De Navbar -->
+<?php include("./basics/navbar.php"); ?>  
 
 
-
-<header id="navbar">
-        <nav class="navbar-container container">
-          <a href="/" class="home-link">
-            <div class="navbar-logo"></div>
-          </a>
-          <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
-              <span class="icon-bar">test1</span>
-              <span class="icon-bar">test2</span>
-              <span class="icon-bar">test3</span>
-          </button>
-          <div class="navbar-menu">
-            <ul class="navbar-links">
-              <li class="navbar-item"><a class="navbar-link" href="./menu.php">Menu</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="./reserveren.php">Reserveren</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="./contact.php">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-    </header>
-
+<div class="row" id="content">
+            <div class="col-12">
+                <?php
+                if (isset($_GET["content"])) {
+                    include("./" . $_GET["content"] . ".php");
+                } else {
+                    include("./content/home.php");
+                }
+                ?>
+               
+            </div>
+        </div>
 
 
 
