@@ -8,12 +8,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>George</title>
+    <title>George Hollywood | Menu</title>
 </head>
 <body>
-    
-
-
 
 <header id="navbar">
         <nav class="navbar-container container">
@@ -35,7 +32,7 @@
         </nav>
     </header>
 
-
+      <embed src="./doc/Menu.pdf" type="application/pdf" height="100%" width="60%"/>
 
 <script src="./js/main.js"></script>
 
