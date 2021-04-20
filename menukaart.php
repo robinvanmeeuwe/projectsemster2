@@ -17,9 +17,11 @@
 			$nquery=$conn->query($sql);
 			$num=$nquery->num_rows-1;
 
+
 			$sql="select * from category order by categoryid asc limit 1, $num";
 			$query=$conn->query($sql);
 			while($row=$query->fetch_array()){
+				// var_dump($row);
 				?>
 				<li><a data-toggle="tab" href="#<?php echo $row['catname'] ?>"><?php echo $row['catname'] ?></a></li>
 				<?php
