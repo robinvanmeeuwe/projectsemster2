@@ -21,12 +21,15 @@
 <body>
 
 <!-- De Navbar -->
+<?php
+include("./basics/navbar.php");
+?>
+
 
 <div class="row" id="content">
             <div class="col-12">
                 <?php
                 if (isset($_GET["content"])) {
-                    include("./basics/navbar.php");
                     include("./" . $_GET["content"] . ".php");
                 } else {
                     include("./home.php");

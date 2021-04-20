@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" type="text/css" href="./css/reserveren.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />
     <link rel="shortcut icon" type="image/x-icon" href="Place for your Title Picture" />
 
     <meta charset="UTF-8">

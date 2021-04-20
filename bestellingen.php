@@ -1,4 +1,3 @@
-<?php  include('./basics/navbar.php'); ?>
 <body>
 <?php include('./bestellingen_script.php'); ?>
 <div class="container">
