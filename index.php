@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />
     <link rel="shortcut icon" type="image/x-icon" href="Place for your Title Picture" />
 
     <meta charset="UTF-8">
@@ -14,17 +13,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- Font CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
 <body>
 
 <!-- De Navbar -->
-<?php include("./basics/navbar.php"); ?>  
 
 <div class="row" id="content">
             <div class="col-12">
                 <?php
                 if (isset($_GET["content"])) {
+                    include("./basics/navbar.php");
                     include("./" . $_GET["content"] . ".php");
                 } else {
                     include("./content/home.php");
