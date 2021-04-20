@@ -19,38 +19,43 @@
               <a class="nav-link" href="index.php?content=menu">Menu</a>
           </li>
 
-        </li>
           <li class="nav-item">
               <a class="nav-link" href="index.php?content=reserveren">Reseveren</a>
-          </li>
-      </ul>
-  </div>
-  <div class="mx-auto my-2 order-0 order-md-1 position-relative">
-      <a class="mx-auto" href="index.php">
-          <img src="./george-marina.png" width="100" height="100">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-  </div>
-  <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
-      <ul class="navbar-nav mr-auto text-center">
-        
-          <li class="nav-item">
-              <a class="nav-link" href="index.php?content=contact">Contact</a>
           </li>
 
           <li class="nav-item">
               <a class="nav-link" href="index.php?content=bestellingen">Bestellingen</a>
           </li>
+
+        </div>
+  <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+
+      <a class="mx-auto" href="index.php">
+          <img src="./george-marina.png" width="100" height="100">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+  </div>
+
+  <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+
+      <ul class="navbar-nav mr-auto text-center">
+        
           <li class="nav-item">
               <a class="nav-link" href="index.php?content=bestellijst">Bestellen</a>
           </li>
+          
           <li class="nav-item">
               <a class="nav-link" href="index.php?content=Menukaart">Menukaart</a>
           </li>
 
+          <li class="nav-item">
+              <a class="nav-link" href="index.php?content=contact">Contact</a>
           </li>
+
       </ul>
   </div>
 </nav>

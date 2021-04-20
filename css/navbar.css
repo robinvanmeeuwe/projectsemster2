@@ -1,0 +1,11 @@
+  /*/ / / / / / / / / /              Navbar              / / / / / / / / / /*/
+  @media {
+    .navbar {
+        height:150px;
+        width: 100%;
+        color: black;
+        background-color: white;
+        border-bottom: 1px solid black;
+        font-size: 15px;
+    }
+  }

@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 43d748e9b11e90ac671c86350ef620f05f4cd2f8
 <body>
 <?php include('./bestellingen_script.php'); ?>
+<!-- Navbar CSS -->
+<link rel="stylesheet" href="./css/navbar.css">
 <div class="container">
 	<h1 class="page-header text-center">bestellijst</h1>
 	<form method="POST" action="aankoop.php">
