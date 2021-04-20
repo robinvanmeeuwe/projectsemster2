@@ -12,9 +12,11 @@
 </head>
 <body>
     
+<?php include("./basics/navbar.php"); ?>
 
 
 
+<<<<<<< HEAD:content/reserveren.php
 <header id="navbar">
         <nav class="navbar-container container">
           <a href="/" class="home-link">
@@ -34,6 +36,8 @@
           </div>
         </nav>
     </header>
+=======
+>>>>>>> 60a82aa1554dea7bcc04466f71a13260cf29ea72:reserveren.php
 
 
 
