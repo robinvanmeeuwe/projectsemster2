@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 <header id="navbar">
         <nav class="navbar-container container">
           <a href="/" class="home-link">
@@ -35,6 +36,13 @@
 
 
 <form name="contactform" method="post" action="send_form_email.php">
+=======
+
+
+
+
+<form name="contactform" method="post" action="../index.php">
+>>>>>>> 0686ac345b5f5e1ad71fa753bac129bfe8d4a3d5
 
 <div class="wrapper">
 <div class="content">

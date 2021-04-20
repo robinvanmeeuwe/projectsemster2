@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 <header id="navbar">
         <nav class="navbar-container container">
           <a href="/" class="home-link">
@@ -31,8 +32,10 @@
           </div>
         </nav>
     </header>
+=======
+>>>>>>> 0686ac345b5f5e1ad71fa753bac129bfe8d4a3d5
 
-      <embed src="./doc/Menu.pdf" type="application/pdf" height="100%" width="60%"/>
+
 
 <script src="./js/main.js"></script>
 

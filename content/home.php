@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <!-- De Navbar -->
+=======
+>>>>>>> 0686ac345b5f5e1ad71fa753bac129bfe8d4a3d5
 <header id="navbar">
         <nav class="navbar-container container">
           <a href="/" class="home-link">
@@ -17,6 +20,7 @@
             </ul>
           </div>
         </nav>
+<<<<<<< HEAD
     </header>
 
 <!-- Temp -->
@@ -24,3 +28,6 @@
 <p>&nbsp;</p>
 
 <a class="navbar-link" href="index.php?content=/content/contact">Contact</a>
+=======
+    </header>
+>>>>>>> 0686ac345b5f5e1ad71fa753bac129bfe8d4a3d5
