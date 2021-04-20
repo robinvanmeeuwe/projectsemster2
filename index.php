@@ -29,7 +29,7 @@
                     include("./basics/navbar.php");
                     include("./" . $_GET["content"] . ".php");
                 } else {
-                    include("./content/home.php");
+                    include("./home.php");
                 }
                 ?>
                 

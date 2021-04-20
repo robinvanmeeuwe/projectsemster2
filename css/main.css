@@ -306,3 +306,14 @@ body {
   .form textarea {
     width: 100%;
     box-sizing: border-box; } }
+
+div.thankspage {
+  background: grey;
+  color: white;
+  text-align: center; }
+  div.thankspage .text1 {
+    margin-top: 25vh;
+    font-size: 6vh; }
+  div.thankspage .text2 {
+    margin-top: 5vh;
+    font-size: 3vh; }

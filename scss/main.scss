@@ -365,3 +365,18 @@ body {
 }
 
 
+div.thankspage{
+  background: grey;
+  color: white;
+text-align: center;
+
+  .text1 {
+    margin-top: 25vh;
+    font-size: 6vh;
+  }
+
+  .text2 {
+    margin-top: 5vh;
+    font-size: 3vh;
+  }
+}
