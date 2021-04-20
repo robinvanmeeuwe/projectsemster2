@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 43d748e9b11e90ac671c86350ef620f05f4cd2f8
 <body>
 <?php include('./bestellingen_script.php'); ?>
 <div class="container">

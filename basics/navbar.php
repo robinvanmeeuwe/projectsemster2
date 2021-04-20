@@ -41,7 +41,13 @@
           </li>
 
           <li class="nav-item">
-              <a class="nav-link" href="index.php?content=bestellingen">Bestellijst</a>
+              <a class="nav-link" href="index.php?content=bestellingen">Bestellingen</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="index.php?content=bestellijst">Bestellen</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="index.php?content=Menukaart">Menukaart</a>
           </li>
 
           </li>

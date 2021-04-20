@@ -29,7 +29,7 @@
  		$sql="update purchase set total='$total' where purchaseid='$pid'";
  		$conn->query($sql);
 		 header('location: salescript.php');
-		header('location: menukaart.php');		
+		header('location: index.php?content=Menukaart');		
 	}
 	else{
 		?>
