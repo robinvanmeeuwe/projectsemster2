@@ -20,11 +20,8 @@
 </head>
 <body>
 
-<<<<<<< HEAD
-=======
 <!-- De Navbar -->
 
->>>>>>> 0686ac345b5f5e1ad71fa753bac129bfe8d4a3d5
 <div class="row" id="content">
             <div class="col-12">
                 <?php
