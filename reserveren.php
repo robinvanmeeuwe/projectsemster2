@@ -11,19 +11,6 @@
     <title>George</title>
 </head>
 <body>
-<<<<<<< HEAD:content/reserveren.php
-    
-<?php include("./basics/navbar.php"); ?>
-
-
-
-
-
-
-<script src="./js/main.js"></script>
-
-</body>
-=======
     <div class="testbox">
       <form action="./content/thankspage.php">
         <div class="banner">
@@ -66,5 +53,4 @@
       </form>
     </div>
   </body>
->>>>>>> 367edd3294d9112a7a84c65488348b94ddad40a8:reserveren.php
 </html>

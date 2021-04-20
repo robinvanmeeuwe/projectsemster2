@@ -65,7 +65,8 @@ body {
   display: flex;
   font-weight: 400;
   align-items: center;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; }
+  transition: background-color 0.2s ease-in-out,
+ color 0.2s ease-in-out; }
 
 .home-link:focus,
 .home-link:hover {
@@ -106,7 +107,9 @@ body {
   width: 25px;
   height: 4px;
   margin: 2px;
-  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out,
+ transform 0.2s ease-in-out,
+ opacity 0.2s ease-in-out;
   background-color: var(--navbar-text-color); }
 
 .navbar-toggle:focus .icon-bar,
@@ -132,7 +135,8 @@ body {
   position: fixed;
   top: var(--navbar-height);
   bottom: 0;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out,
+ visibility 0.2s ease-in-out;
   opacity: 0;
   visibility: hidden;
   left: 0;
