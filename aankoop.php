@@ -35,7 +35,7 @@
 		?>
 		<script>
 			window.alert('Please select a product');
-			window.location.href='order.php';
+			window.location.href='bestellijst.php';
 		</script>
 		<?php
 	}

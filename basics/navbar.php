@@ -14,6 +14,7 @@
               <li class="navbar-item"><a class="navbar-link" href="index.php?content=reserveren">Reserveren</a></li>
               <li class="navbar-item"><a class="navbar-link" href="index.php?content=contact">Contact</a></li>
               <li class="navbar-item"><a class="navbar-link" href="index.php?content=bestellijst">BestelLijst</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="index.php?content=Menukaart">Menukaart</a></li>
             </ul>
           </div>
         </nav>
