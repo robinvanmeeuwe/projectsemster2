@@ -16,7 +16,7 @@
 
 
 
-<form name="contactform" method="post" action="../index.php">
+<form name="contactform" method="post" action="./content/thankspage.php">
 
 <div class="wrapper">
 <div class="content">

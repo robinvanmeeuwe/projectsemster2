@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="testbox">
-      <form action="/">
+      <form action="./content/thankspage.php">
         <div class="banner">
           <!-- <h1>Restaurant George Marina</h1> -->
         </div>
