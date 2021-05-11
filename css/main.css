@@ -321,3 +321,10 @@ div.thankspage {
   div.thankspage .text2 {
     margin-top: 5vh;
     font-size: 3vh; }
+
+#content {
+  text-align: center;
+  font-size: 18px;
+  font-family: libre-bsakerville;
+  padding-top: 2em;
+}
