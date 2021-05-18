@@ -16,7 +16,7 @@
 
 
 
-<form name="contactform" method="post" action="./content/thankspage.php">
+<form name="contactform" method="post" action="./send_form_email.php">
 
 <div class="wrapper">
 <div class="content">
@@ -45,7 +45,7 @@
 
 <div class="inner-form">
   <div class="label" for="email">E-mail address</div>    
-  <input  type="email" placeholder="Your E-mail addres" name="telephone" maxlength="10" size="30" required>
+  <input  type="email" placeholder="Your E-mail addres" name="telephone" maxlength="50" size="30" required>
   </div>
 
 </div>
