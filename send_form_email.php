@@ -6,12 +6,10 @@ $email = $_POST['email'];
 $comment  = $_POST['comment'];
 
 if (empty($name) || empty($email) || empty($comment)) {
-  header('Location: ./index.php?content=message&alert=contact-empty');;
-  header("Refresh: 3; ./index.php?content=kontakt");
+  header('Location: ./index.php?content=message&alert=contactform-empty');;
 } else {
   if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    header("Location: ./index.php?content=message&alert=email-invalid");;
-    header("Refresh: 3; ./index.php?content=kontakt");
+    header("Location: ./index.php?content=message&alert=emailform-invalid");;
   } else {
 $headers[] = 'MIME-Version: 1.0';
 $headers[] = 'Content-type: text/html; charset=iso-8859-1';
@@ -44,8 +42,7 @@ $message = '
 
 
 mail($to, $subject, $message, implode("\r\n", $headers));
-header("Location: ./index.php?content=message&alert=contact-success");
-header("Refresh: 3; ./index.php?content=contact");
+header("Location: ./index.php?content=message&alert=contactform-success");
   }
 }
 
