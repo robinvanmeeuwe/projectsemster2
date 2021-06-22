@@ -1,3 +1,15 @@
+<?php
+    include("./connect_db_admintparking.php");
+
+    $sql = "SELECT * FROM `parkeerplaatsen`";
+
+    $result = mysqli_query($conn, $sql);
+
+    $records = "";
+    while ($record = mysqli_fetch_assoc($result)) {
+    $records .= "<option value=" . $record["ID"] . ">" . $record["Naam"] . " " . $record["Afstand"] . " KM <font color=red>" . $record["Beschikbaarheid"] . "</font></option>";
+    }   
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,36 +31,34 @@
 </div>
 
 <h1>Parking</h1>
-<div id="parking-alert" class="alert alert-warning hidden" role="alert">
+<!-- <div id="parking-alert" class="alert alert-warning hidden" role="alert">
   The selected parking garage has no more space remaining.
-</div>
+</div> -->
 <select id="mapfrmselect" class="form-select form-select-sm" aria-label=".form-select-sm example" onchange="switchmarker()";>
   <option selected="selected" value="0">Select parkingspot</option>
-  <option value="1">Parkeergarage Zuidpark [1,6 KM]</option>
-  <option value="2">Parkeerplaats Spaklerweg [2,2 KM]</option>
+  <!-- <option value="1">Parkeergarage Zuidpark [1,6 KM]</option>
+  <option value="2">Parkeerplaats Spaklerweg [2,2 KM]</option> -->
+  <?php
+    echo $records;
+  ?>
 </select>
 <script>
 function switchmarker() {
   if(mapfrmselect.value == 0) {
     document.getElementById("mapparkval").src = "";
     document.getElementById("mapparkval").style.height = "0px";
-    document.getElementById("parking-alert").classList = "hidden";
   } else if(mapfrmselect.value == 1) {
     document.getElementById("mapparkval").src = "https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJW-lzCdwLxkcRVIMMqyzWKsg&destination=place_id:ChIJ6eske84LxkcRk1st00qFxEo&key=AIzaSyCok4HQJq-Ez2y72eUAzWTtpeFMT6Bmea4";
     document.getElementById("mapparkval").style.height = "450px";
-    document.getElementById("parking-alert").classList = "alert alert-warning";
   } else if(mapfrmselect.value == 2)  {
     document.getElementById("mapparkval").src = "https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJW-lzCdwLxkcRVIMMqyzWKsg&destination=place_id:ChIJve-N6eYLxkcRcEiIgby2_LQ&key=AIzaSyCok4HQJq-Ez2y72eUAzWTtpeFMT6Bmea4";
     document.getElementById("mapparkval").style.height = "450px";
-    document.getElementById("parking-alert").classList = "hidden";
   } else if(mapfrmselect.value == 3)  {
     document.getElementById("mapparkval").src = "https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJW-lzCdwLxkcRVIMMqyzWKsg&destination=place_id:ChIJve-N6eYLxkcRcEiIgby2_LQ&key=AIzaSyCok4HQJq-Ez2y72eUAzWTtpeFMT6Bmea4";
     document.getElementById("mapparkval").style.height = "450px";
-    document.getElementById("parking-alert").classList = "hidden";
   } else if(mapfrmselect.value == 4)  {
     document.getElementById("mapparkval").src = "https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJW-lzCdwLxkcRVIMMqyzWKsg&destination=place_id:ChIJve-N6eYLxkcRcEiIgby2_LQ&key=AIzaSyCok4HQJq-Ez2y72eUAzWTtpeFMT6Bmea4";
     document.getElementById("mapparkval").style.height = "450px";
-    document.getElementById("parking-alert").classList = "hidden";
   }
 }
 </script>

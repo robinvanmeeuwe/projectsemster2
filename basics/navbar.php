@@ -15,8 +15,8 @@
   <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
       <ul class="navbar-nav ml-auto text-center">
 
-          <li class="nav-item">
-              <a class="nav-link" href="index.php?content=menu">Menu</a>
+      <li class="nav-item">
+              <a class="nav-link" href="index.php?content=Menukaart">Menukaart</a>
           </li>
 
           <li class="nav-item">
@@ -46,10 +46,6 @@
         
           <li class="nav-item">
               <a class="nav-link" href="index.php?content=bestellijst">Bestellen</a>
-          </li>
-          
-          <li class="nav-item">
-              <a class="nav-link" href="index.php?content=Menukaart">Menukaart</a>
           </li>
 
           <li class="nav-item">

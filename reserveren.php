@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="testbox">
-      <form action="./content/thankspage.php">
+      <form action="./thankspage.php">
         <div class="banner">
           <!-- <h1>Restaurant George Marina</h1> -->
         </div>
@@ -48,7 +48,7 @@
           <textarea rows="3"></textarea>
         </div>
          <div class="btn-block">
-          <button type="submit" href="/">Reserveer!</button>
+          <button class="btn btn-primary" type="submit" href="/">Reserveer!</button>
         </div>
       </form>
     </div>

@@ -29,13 +29,13 @@
  		$sql="update purchase set total='$total' where purchaseid='$pid'";
  		$conn->query($sql);
 		 header('location: salescript.php');
-		header('location: index.php?content=Menukaart');		
+		header('location: index.php?content=thankspage');		
 	}
 	else{
 		?>
 		<script>
 			window.alert('Please select a product');
-			window.location.href='bestellijst.php';
+			window.location.href='index.php?content=bestellijst';
 		</script>
 		<?php
 	}
